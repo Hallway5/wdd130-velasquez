@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -20,15 +20,15 @@
     </header>
 
     <main>
-        <section>
+        <section id="section1">
             <h1>Find Your Path to Law School</h1>
             <p>Explore the top 25 law schools with GPA, LSAT, and more.</p>
-            <a>Get Started</a>
+            <a class="button">Get Started</a>
         </section>
 
-        <section>
+        <section id="section2">
             <h1>Top 25 Law Schools</h1>
-            <p>Explore the top 25 law schools with GPA, LSAT, and more.</p>
+            <p>Median 25th and 75th percentile GPA and LSAT.</p>
 
             <table>
                 <tr>
@@ -240,42 +240,58 @@
                     <td>159</td>
                 </tr>
             </table>
-            <a>View Full List</a>
-
-            <h3>Quick Stats</h3>
-            <img src="">
-            <h4>Top GPA School</h4>
-            <p>Harvard University</p>
-            <p>3.91</p>
-            <img src="">
-            <h4>Top LSAT School</h4>
-            <p>Harvard University</p>
-            <p>173</p>
-            <img src="">
-            <h4>Lowest 3-Year Cost</h4>
-            <p>CUNY School of Law</p>
-            <p>$89,802</p>
+            <a class="button">View Full List</a>
         </section>
 
-        <section>
-            <img src="">
-            <h3>Ready to Maximize Your Chances?</h3>
-            <p>Use our data to build your law school strategy.</p>
-            <a>Learn More</a>
+        <section id="section3">
+            <h3 id="quick_stats_header">Quick Stats</h3>
+            <img id="harvard_logo_1" src="" alt="harvard_logo">
+            <div id="top_gpa">
+                <h4>Top GPA School</h4>
+                <p>Harvard University</p>
+                <p>3.91</p>
+            </div>
+            <img id="harvard_logo_2" src="" alt="harvard_logo">
+            <div id="top_lsat">
+                <h4>Top LSAT School</h4>
+                <p>Harvard University</p>
+                <p>173</p>
+            </div>
+            <img id="cuny_logo" src="" alt="cuny_logo">
+            <div id="lowest_cost">
+                <h4>Lowest 3-Year Cost</h4>
+                <p>CUNY School of Law</p>
+                <p>$89,802</p>
+            </div>
+        </section>
+
+        <section id="section4">
+            <img id="section_4_img" src="" alt="max_chance">
+            <div id="section_4_text">
+                <h3>Ready to Maximize Your Chances?</h3>
+                <p>Use our data to build your law school strategy.</p>
+                <a class="button">Learn More</a>
+            </div>
         </section>
     </main>
 
     <footer>
-        <h6>Law School Admissions</h6>
-        <p>Your guide to top law schools.</p>
-        <a>About</a>
-        <a>Contact</a>
-        <a>Resources</a>
-        <a>Privacy Policy</a>
-        <img src="">
-        <img src="">
-        <img src="">
-        <p>© 2025 Law School Admissions. All rights reserved.</p>
+        <div id="footer_text_div">
+            <h6>Law School Admissions</h6>
+            <p class="footer_text">Your guide to top law schools.</p>
+        </div>
+        <div id="footer_buttons">
+            <a>About</a>
+            <a>Contact</a>
+            <a>Resources</a>
+            <a>Privacy Policy</a>
+        </div>
+        <div id="social_media_links">
+            <img class="soc_med" src="" alt="soc_med">
+            <img class="soc_med" src="" alt="soc_med">
+            <img class="soc_med" src="" alt="soc_med">
+        </div>
+        <p class="footer_text">© 2025 Law School Admissions. All rights reserved.</p>
     </footer>
 </body>
 </html>
