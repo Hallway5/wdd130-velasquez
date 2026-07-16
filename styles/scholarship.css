@@ -116,14 +116,37 @@ p {
 }
 
 /* Code for section 2. */
-#section2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
 
-    background: white;
+
+.school {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 80px;
+    width: 100%;
 }
+
+.school img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    justify-self: center;
+}
+
+.school-text h3 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.school-text ol {
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.8;
+    padding-left: 30px;
+}
+
+
 
 table, th, td {
     border: 1px solid;
@@ -327,4 +350,17 @@ h6 {
     justify-content: left;
 
     margin: 20px;
+}
+
+.button {
+    padding: 10px;
+    outline-style: solid;
+    background: white;
+    
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    width: 400px;
+
+    margin: 10px;
 }
